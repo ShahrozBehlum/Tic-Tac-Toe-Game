@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(184, 84, 84);
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    height: 12vh;
+    padding: 10px;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 9vmin;
+    background-color: bisque;
+    color: rgb(7, 7, 101);
+    border-radius:1rem;
+    border: none;
+    box-shadow: 0 0 1rem solid #000000;
+}
+.box:hover{
+    background-color: rgb(226, 219, 219);
+}
+#reset-btn{
+    padding: 9px;
+    background-color: rgb(28, 26, 26);
+    color: #fff;
+    border-radius: 0.7rem;
+    border: none;
+    font-size: 4.0vmin;
+}
+#reset-btn:hover{
+    background-color: blue;
+    color: #000;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+#msg{
+    padding: 20px;
+    font-size: 60px;
+    color: beige;
+}
+#new-btn{
+    padding: 9px;
+    background-color: rgb(28, 26, 26);
+    color: #fff;
+    border-radius: 0.7rem;
+    border: none;
+    font-size: 4.0vmin;
+}
+#new-btn:hover{
+    background-color: blue;
+    color: #000;
+}
+.hide{
+    display: none;
+}
+.play-container{
+    height: 110vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.play-btn{
+    padding: 15px;
+    background-color: rgb(28, 26, 26);
+    color: #fff;
+    border-radius: 0.7rem;
+    border: none;
+    font-size: 6vmin;
+}
+.play-btn:hover{
+    background-color: blue;
+    color: #000;
+}
+#dev{
+    padding: 30px;
+    font-size: 1.5rem;
+    color: rgb(206, 206, 49);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#dev:hover{
+    color: blue;
+}
+.hide2{
+    display: none;
+}
+.hide3{
+    display: none;
+}
+.draw-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#draw-msg{
+    padding: 20px;
+    font-size: 60px;
+    color: beige;
+}
+#try-btn{
+    padding: 15px;
+    background-color: rgb(28, 26, 26);
+    color: #fff;
+    border-radius: 0.7rem;
+    border: none;
+    font-size: 4vmin;
+}
+#try-btn:hover{
+    background-color: blue;
+    color: #000;
+}
+.hide4{
+    display: none;
+}
